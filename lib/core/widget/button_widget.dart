@@ -32,7 +32,7 @@ class ButtonWidget extends StatelessWidget {
               padding: MaterialStateProperty.all(EdgeInsets.zero),
               alignment: Alignment.center,
               backgroundColor: MaterialStateProperty.all(color),
-              overlayColor: MaterialStateProperty.all(AppColors.primary),
+              // overlayColor: MaterialStateProperty.all(AppColors.primary),
               shape: MaterialStateProperty.all(RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(10.r),
                   side: BorderSide(width: 1, color: borderColor)))),
